@@ -1,0 +1,18 @@
+﻿빌드 시작: 2019-04-05 오전 4:14:35
+     1>2 노드의 "C:\My\2017\전공심화\포인터\ConsoleApplication5\ConsoleApplication5\ConsoleApplication5.vcxproj" 프로젝트(Build 대상)입니다.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt "..\..\..\..\..\..\Users\cotndus\Desktop\취업\작품\2학년\main.cpp"
+         main.cpp
+     1>c:\users\cotndus\desktop\취업\작품\2학년\main.cpp(117): warning C4101: 'j' :참조되지 않은 지역 변수입니다.
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt "소스.c"
+         소스.c
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\My\2017\전공심화\포인터\ConsoleApplication5\Debug\ConsoleApplication5.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\My\2017\전공심화\포인터\ConsoleApplication5\Debug\ConsoleApplication5.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\My\2017\전공심화\포인터\ConsoleApplication5\Debug\ConsoleApplication5.lib" /MACHINE:X86 Debug\main.obj
+         "Debug\소스.obj"
+     1>소스.obj : error LNK2005: _main이(가) main.obj에 이미 정의되어 있습니다.
+     1>C:\My\2017\전공심화\포인터\ConsoleApplication5\Debug\ConsoleApplication5.exe : fatal error LNK1169: 여러 번 정의된 기호가 있습니다.
+     1>"C:\My\2017\전공심화\포인터\ConsoleApplication5\ConsoleApplication5\ConsoleApplication5.vcxproj" 프로젝트를 빌드했습니다(Build 대상). - 실패
+
+빌드하지 못했습니다.
+
+경과 시간: 00:00:02.29
